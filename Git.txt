@@ -1,0 +1,109 @@
+ git clone https://github.com/pthom/northwind_psql.git
+    3  ls -la
+    4  cd northwind_psql/
+    5  ls
+    6  cat docker-compose.yml
+    7  apt install mc
+    8  apt install mcdf -h
+    9  df -h
+   10  apt update
+   11  git --version
+   12  git config --global user.name "Maxim"
+   13  cd /home
+   14  mkdir 777 devops
+   15  gitinit
+   16  git config --global user.email "rodionov.gazman2013@gmail.com"
+   17  git init
+   18  ls
+   19  cd devops
+   20  git init
+   21  ls
+   22  ls -la
+   23  pwd
+   24  echo "test" > test.m
+   25  ls -la
+   26  git status
+   27  echo "test" > test2.m
+   28  git status
+   29  git add test.m
+   30  git status
+   31  git commit
+   32  git status
+   33  echo "test3" > test3.m
+   34  git add *
+   35  git status
+   36  git commid
+   37  git commit
+   38  git status
+   39  git log
+   40  git clone https://github.com/Gazman2013/leveup_26_02__2021.git
+   41  ls -la
+   42  cd leveup_26_02__2021/
+   43  ls -la
+   44  cat .gitignore
+   45  ls -la
+   46  nano .gitignore
+   47  cd ..
+   48  ls
+   49  cp test* /levelup_26-02_2021
+   50  cp test* /home/devops/levelup_26-02_2021
+   51  cp test.m /home/devops/levelup_26-02_2021
+   52  cp test2.m /home/devops/levelup_26-02_2021
+   53  cp test3.m /home/devops/levelup_26-02_2021
+   54  cd leveup_26_02__2021/
+   55  ls
+   56  get push
+   57  get push https://github.com/Gazman2013/leveup_26_02__2021
+   58  git push https://github.com/Gazman2013/leveup_26_02__2021
+   59  git push * https://github.com/Gazman2013/leveup_26_02__2021
+   60  git push  https://github.com/Gazman2013/leveup_26_02__2021
+   61  echo "level" > level.pom
+   62  git status
+   63  git add *
+   64  git push
+   65  git status
+   66  git commit
+   67  git push
+   68  echo "level2"> > level.pom
+   69  echo "level2">> level.pom
+   70  git diff
+   71  echo "2level2">> level.pom
+   72  git diff
+   73  git status
+   74  git add *
+   75  git commit
+   76  git diff
+   77  git log
+   78  git status
+   79  git push
+   80  git pull --rebase
+   81  nano  level.pom
+   82  get add *
+   83  git add *
+   84  git commit
+   85  git push
+   86  git pull --rebase
+   87  nano level.pom
+   88  git rebase --continue
+   89  git status
+   90  git add *
+   91  git rebase --continue
+   92  git log
+   93  date
+   94  git push
+   95  git branch
+   96  git branch master
+   97  git branch
+   98  git checkout master
+   99  git status
+  100  git checkout -b develop
+  101  git status
+  102  git branch
+  103  echo "branch commit" > dev_branch.txt
+  104  git add *
+  105  git commit
+  106  git push
+  107  git push --set-upstream origin develop
+ git status
+  110  git checkout main
+  111  git merge develop
