@@ -80,3 +80,35 @@ Date:   Mon Mar 1 18:53:12 2021 +0000
 commit 64627119d59b927240b21cfecdd2ba0e4aeb5626 (master)
 Author: Maxim <man2013@gmail.com>
 Date:   Mon Mar 1 18:22:54 2021 +0000
+24. git checkout master
+25. git merge first
+26. git log -n 2 --graph --all
+*   commit 48440eafd480e65a42d07b3c7a65c95343ebc6f8 (second)
+|\  Merge: c2589f5 44aaf8c
+| | Author: Maxim <rodionov.gazman2013@gmail.com>
+| | Date:   Mon Mar 1 19:05:18 2021 +0000
+| |
+| |     Merge branch 'first' into second
+| |     "second > first"
+| |
+| * commit 44aaf8c800a390da62d68c8be6207558b46ef55a (HEAD -> master, first)
+| | Author: Maxim <rodionov.gazman2013@gmail.com>
+| | Date:   Mon Mar 1 18:53:12 2021 +0000
+| |
+| |     test_second_branch
+27.  git reset --hard HEAD~1
+HEAD is now at 6462711 test commit
+root@instance-3:/home/dev# git log -n 2 --graph --all
+*   commit 48440eafd480e65a42d07b3c7a65c95343ebc6f8 (second)
+|\  Merge: c2589f5 44aaf8c
+| | Author: Maxim <rodionov.gazman2013@gmail.com>
+| | Date:   Mon Mar 1 19:05:18 2021 +0000
+| |
+| |     Merge branch 'first' into second
+| |     "second > first"
+| |
+| * commit 44aaf8c800a390da62d68c8be6207558b46ef55a (first)
+| | Author: Maxim <rodionov.gazman2013@gmail.com>
+| | Date:   Mon Mar 1 18:53:12 2021 +0000
+| |
+| |     test_second_branch
