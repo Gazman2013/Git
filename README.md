@@ -98,7 +98,7 @@ Date:   Mon Mar 1 18:22:54 2021 +0000
 | |     test_second_branch
 27.  git reset --hard HEAD~1
 HEAD is now at 6462711 test commit
-root@instance-3:/home/dev# git log -n 2 --graph --all
+28. git log -n 2 --graph --all
 *   commit 48440eafd480e65a42d07b3c7a65c95343ebc6f8 (second)
 |\  Merge: c2589f5 44aaf8c
 | | Author: Maxim <rodionov.gazman2013@gmail.com>
@@ -112,3 +112,5 @@ root@instance-3:/home/dev# git log -n 2 --graph --all
 | | Date:   Mon Mar 1 18:53:12 2021 +0000
 | |
 | |     test_second_branch
+29.
+30. git push https://github.com/Gazman2013/Git/ master
