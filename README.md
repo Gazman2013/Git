@@ -9,10 +9,10 @@
 8. Отменить предыдущий комит
 9. Все изменения запушить в гит репозиторий.
 
-mkdir dev
-cd dev
-touch HW1.txt HW2.txt HW3.txt
-git status
+1. mkdir dev
+2. cd dev
+3. touch HW1.txt HW2.txt HW3.txt
+4. git status
 git add * начать отслеживать (добавить под версионный контроль) новые файлы
 root@instance-3:/home/dev# git status определяем состояние файлов
 On branch master
