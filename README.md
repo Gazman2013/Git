@@ -37,7 +37,13 @@ Enumerating objects: 4, done.
 9. git branch список веток
 10. git branch first создание веток
 11. git branch second
-12. root@instance-3:/home/dev# git branch
+12. git branch
 first
 master
 second
+13.  git checkout first переключение на выбраную ветку
+Switched to branch 'first'
+14. git branch
+* first
+  master
+  second
