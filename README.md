@@ -47,3 +47,10 @@ Switched to branch 'first'
 * first
   master
   second
+14. echo "test1" > second_branch.txt
+15. git add *
+16. git commit -m "test_second_branch"
+17. git checkout second
+18. echo "test2" > second_branch2.txt
+19. git add *
+20. git commit -m "test_second_branch2" намудрил с названиями веток и коммитов
