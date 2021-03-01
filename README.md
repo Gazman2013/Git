@@ -13,8 +13,8 @@
 2. cd dev
 3. touch HW1.txt HW2.txt HW3.txt
 4. git status
-git add * начать отслеживать (добавить под версионный контроль) новые файлы
-root@instance-3:/home/dev# git status определяем состояние файлов
+5. git add * начать отслеживать (добавить под версионный контроль) новые файлы
+6. root@instance-3:/home/dev# git status определяем состояние файлов
 On branch master
 
 No commits yet
@@ -25,11 +25,12 @@ Changes to be committed:
         new file:   HW2.txt
         new file:   HW3.txt
 
-git commit -m "test commit" фиксация изменений
+7. git commit -m "test commit" фиксация изменений
 [master (root-commit) 6462711] test commit
  3 files changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 dev/HW1.txt
  create mode 100644 dev/HW2.txt
  create mode 100644 dev/HW3.txt
 
-
+8.  git push https://github.com/
+Enumerating objects: 4, done.
