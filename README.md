@@ -35,7 +35,7 @@ Changes to be committed:
 8.  git push https://github.com/
 Enumerating objects: 4, done.
 9. git branch список веток
-10.  git branch first создание веток
+10. git branch first создание веток
 11.git branch second
 12. root@instance-3:/home/dev# git branch
 first
