@@ -35,28 +35,28 @@ Changes to be committed:
 8.  git push https://github.com/
 Enumerating objects: 4, done.
 9. git branch список веток
-git branch one
-git branch two
-git checkout one
-echo "test1" > one.txt
-git add .
-git commit -m "Edit one.txt"
+10. git branch one
+11. git branch two
+12. git checkout one
+13. echo "test1" > one.txt
+14. git add .
+15. git commit -m "Edit one.txt"
 [one 527ec6b] Edit one.txt
  1 file changed, 1 insertion(+)
  create mode 100644 dev/one.txt
 
 
-git checkout two
-git checkout two
+16. git checkout two
+17. git checkout two
 Switched to branch 'two'
-echo "test2" > two.txt
-git add .
-git commit -m "Edit two.txt"
+18. echo "test2" > two.txt
+19. git add .
+20. git commit -m "Edit two.txt"
 [two f34c591] Edit two.txt
  1 file changed, 1 insertion(+)
  create mode 100644 dev/two.txt
---------------------------------
-git log -n 2 --graph --all
+
+21. git log -n 2 --graph --all
 * commit f34c591bfd3d757af4d2b375a390c2926961deb9 (HEAD -> two)
 | Author: Maxim <rodionov.gazman2013@gmail.com>
 | Date:   Tue Mar 2 07:22:25 2021 +0000
@@ -69,15 +69,15 @@ git log -n 2 --graph --all
 |
 |       Edit one.txt
 
-------------------------------------
-git merge one  -m "Merge two with one"
+
+22. git merge one  -m "Merge two with one"
 Merge made by the 'recursive' strategy.
  dev/one.txt | 1 +
  1 file changed, 1 insertion(+)
  create mode 100644 dev/one.txt
 
----------------------------------------------
-git log -n 1 --graph --all
+
+23. git log -n 1 --graph --all
 *   commit 25267fc49824ef1436df50ae050010af6c030fc8 (HEAD -> two)
 |\  Merge: f34c591 527ec6b
 | | Author: Maxim <rodionov.gazman2013@gmail.com>
@@ -86,9 +86,9 @@ git log -n 1 --graph --all
 | |     Merge two with one
 
 
--------------------------------------------
-git checkout master
-git merge two -m "Merge master with two"
+
+24. git checkout master
+25. git merge two -m "Merge master with two"
 Updating 44aaf8c..25267fc
 Fast-forward (no commit created; -m option ignored)
  dev/one.txt | 1 +
@@ -96,8 +96,8 @@ Fast-forward (no commit created; -m option ignored)
  2 files changed, 2 insertions(+)
  create mode 100644 dev/one.txt
  create mode 100644 dev/two.txt
-------------------------------------------
-git log -n 2 --graph --all
+
+26. git log -n 2 --graph --all
 *   commit 25267fc49824ef1436df50ae050010af6c030fc8 (HEAD -> master, two)
 |\  Merge: f34c591 527ec6b
 | | Author: Maxim <rodionov.gazman2013@gmail.com>
@@ -110,10 +110,10 @@ git log -n 2 --graph --all
 | | Date:   Tue Mar 2 07:21:14 2021 +0000
 | |
 | |     Edit one.txt
----------------------------------------------
-git reset --hard HEAD~1
+
+27. git reset --hard HEAD~1
 HEAD is now at f34c591 Edit two.txt
-git log -n 2 --graph --all
+28. git log -n 2 --graph --all
 *   commit 25267fc49824ef1436df50ae050010af6c030fc8 (two)
 |\  Merge: f34c591 527ec6b
 | | Author: Maxim <rodionov.gazman2013@gmail.com>
@@ -127,7 +127,7 @@ git log -n 2 --graph --all
 | |
 | |     Edit one.txt
 
-----------------------------------------------
+29. git push
 master/git/dev
 HW1.txt
 test commit
