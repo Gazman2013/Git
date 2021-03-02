@@ -128,6 +128,7 @@ HEAD is now at f34c591 Edit two.txt
 | |     Edit one.txt
 
 29. git push
+
 master/git/dev
 HW1.txt
 test commit
